@@ -1,0 +1,33 @@
+[gd_resource type="TileSet" load_steps=4 format=2]
+
+[ext_resource path="res://enemy.JPG" type="Texture" id=1]
+
+[sub_resource type="OccluderPolygon2D" id=1]
+polygon = PoolVector2Array( -53.6714, -52.2063, -53.6714, 50.8452, 53.4616, 51.1642, 53.1399, -51.8873 )
+
+[sub_resource type="RectangleShape2D" id=2]
+extents = Vector2( 53.7834, 51.8873 )
+
+[resource]
+0/name = "Sprite"
+0/texture = ExtResource( 1 )
+0/tex_offset = Vector2( 0, 0 )
+0/modulate = Color( 0, 0, 0, 1 )
+0/region = Rect2( 0, 0, 107, 103 )
+0/tile_mode = 0
+0/occluder_offset = Vector2( 53.5, 51.5 )
+0/occluder = SubResource( 1 )
+0/navigation_offset = Vector2( 53.5, 51.5 )
+0/shape_offset = Vector2( 53.5, 51.5 )
+0/shape_transform = Transform2D( 1, 0, 0, 1, 53.5, 51.5 )
+0/shape = SubResource( 2 )
+0/shape_one_way = false
+0/shape_one_way_margin = 1.0
+0/shapes = [ {
+"autotile_coord": Vector2( 0, 0 ),
+"one_way": false,
+"one_way_margin": 1.0,
+"shape": SubResource( 2 ),
+"shape_transform": Transform2D( 1, 0, 0, 1, 53.5, 51.5 )
+} ]
+0/z_index = 0
